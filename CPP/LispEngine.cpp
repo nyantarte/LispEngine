@@ -2,11 +2,17 @@
 //
 
 #include "pch.h"
-#include <iostream>
+#include"lisp2ByteCode.h"
 
 int main()
 {
     std::cout << "Hello World!\n";
+
+    CVM vm;
+    CLisp2ByteCode gen;
+    CLispLexer l("(let i 0)");
+    gen.parse(l, vm);
+    vm.dump();
 }
 
 // プログラムの実行: Ctrl + F5 または [デバッグ] > [デバッグなしで開始] メニュー
