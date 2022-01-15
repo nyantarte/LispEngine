@@ -1,0 +1,10 @@
+#pragma once
+#include"Win32Framework.h"
+#include"OnIdleCallback.h"
+#include"win32_error.h"
+#include"Win32App.h"
+#include"Win32Geometory.h"
+#include"Win32Keystate.h"
+#include"Win32Window.h"
+#include"Win32WindowClass.h"
+#include"strconv.h"

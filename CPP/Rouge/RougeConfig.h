@@ -1,0 +1,13 @@
+#pragma once
+
+#define ROUGE_GRID_NUM_X 17
+#define ROUGE_GRID_NUM_Y 13 
+#define ROUGE_DEF_ROOM_NUM_MAX 3
+#define ROUGE_GRID_MIN_W 1
+#define ROUGE_GRID_MIN_H 1
+#define ROUGE_MOVE_DIR_CHAIN_NUM (7)
+
+#define ROUGE_CHARA_NUM (ROUGE_DEF_ROOM_NUM_MAX+1) 
+#define BULLET_MOVE_FRAME_NUM (16)
+
+#define BULLET_MAX_NUM (32)
